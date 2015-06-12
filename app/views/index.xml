@@ -1,0 +1,19 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tab1">
+			<Require src ="calendar" id="calendarTab"/>
+		</Tab>
+		<Tab id="tab2">
+			<Require src ="bills" id="billsTab"/>
+		</Tab>
+		<Tab id="tab3">
+			<Require src ="directory" id="directoryTab"/>
+		</Tab>
+		<Tab id="tab4">
+			<Require src ="resources" id="resourcesTab"/>
+		</Tab>
+		<Tab id="tab5">
+			<Require src ="settings" id="settingsTab"/>
+		</Tab>
+	</TabGroup>
+</Alloy>

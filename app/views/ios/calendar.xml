@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<TabbedBar id = "eventoptions" platform="ios" onClick="changeEvent">
+			<Labels>
+				<Label class="allbutton"/>
+				<Label class="floorbutton"/>
+				<Label class="committeebutton"/>
+			</Labels>
+		</TabbedBar>
+		<ScrollableView id ="scrollableView" onScoll ="pageChange">
+			<Require src="allevents"/>
+			<Require src="floorevents"/>
+			<Require src="committeeevents"/>
+		</ScrollableView>
+	</Window>
+</Alloy>
